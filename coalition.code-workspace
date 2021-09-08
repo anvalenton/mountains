@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Users/mishval/Documents/Springboard/coding practice"
+		},
+		{
+			"path": "../evenfinity test"
+		},
+		{
+			"path": "../jeopardy"
+		},
+		{
+			"path": "../Front End July 2021"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "test",
+		"liveServer.settings.port": 5501
+	}
+}

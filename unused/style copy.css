@@ -1,0 +1,136 @@
+
+html, body {
+    overflow:unset;
+    height: 270vh;
+   
+}
+
+section {
+    height: 100vh;
+    border: 1px solid green;
+    
+}
+
+span {
+    border: 1px solid brown;
+}
+
+.sectioncontainer {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+    
+    
+}
+
+.sectioncontainer-subdiv {
+    position: absolute;
+    border: 2px solid yellow;
+    width: 99%;
+    margin-top: 26vh
+
+}
+
+.section-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.section-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.square {
+    display:inline-block;
+    height: 4vh;
+    width: 4vh;
+    margin-bottom: 3px;
+    background-color: #70809b;
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+}
+
+.numeraldiv {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 17vh;
+    color: #70809b;
+
+    line-height: 99%;
+    border: 1px solid purple;
+}
+
+.numeral {
+    border: 1px solid orange;
+    height: fit-content;
+}
+
+.par-container {
+    padding-left: 2vw;
+}
+
+.background {
+    z-index: -4;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    padding-bottom: 0;
+    /* border: 3px solid pink; */
+    
+}
+
+nav {
+    /* z-index: 2; */
+    position: sticky;
+    top: 0;
+    
+}
+
+.bottombody {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0;
+
+}
+
+footer {
+    background-color: #414f6b;
+    z-index: -4;
+    position: relative;
+    margin-top: 0;
+    border: 1px solid red;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-underline-offset: 3px;
+}
+
+a:link {
+    color: white;
+}
+
+.copyrighttext {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #63769d;
+
+}
